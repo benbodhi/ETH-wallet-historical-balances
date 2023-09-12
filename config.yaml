@@ -1,0 +1,60 @@
+# Wallet addresses to get balances for
+WALLET_ADDRESSES:
+  - '0x0000000000000000000000000000000000000000'
+  - '0x0000000000000000000000000000000000000000'
+    # Add more of your wallet addresses as needed
+
+# Block numbers to get balances for
+BLOCK_NUMBERS:
+  - 11111111
+  - 12345678
+    # Add more block numbers as needed
+
+# Sample list of token contract addresses to exclude
+EXCLUDE_TOKEN_CONTRACTS:
+  - '0xd88e87cd53d5b3c88c07bdb4715a39b75d6e7870'
+  - '0xa08891636ba65305420faa600fdcca2476bb4613'
+  - '0xd8a27727da222a1e4751da06a0e42305b32e3870'
+  - '0x1f068a896560632a4d2e05044bd7f03834f1a465'
+  - '0xad9f583f255ea7fba4321f84cba57c3bbd2f0687'
+  - '0x17158e788771ebff629e00e9b0b62a9c921e2134'
+  - '0xe23366cccf6c5318b47621ceac3296d480b5ebc8'
+  - '0x69d732f50e248d4b825d524fedeb0d7ce3d76352'
+  - '0xc9da518db3abdb90a82c4d1838b7cf9b0c945e7e'
+  - '0x90de74265a416e1393a450752175aed98fe11517'
+  - '0x0d3716e3e411af431a6e87e715d4b05bbcd67000'
+  - '0x248cb9d56e173a204be67dcc05bfa62a2acf352e'
+  - '0x36e4b62151b1c8e3b261045a97b605b9ca5488ab'
+  - '0xe89c2dccfa045f3538ae3ebbfff3daec6a40a73a'
+  - '0xc85e0474068dba5b49450c26879541ee6cc94554'
+  - '0x4f14cdbd815b79e9624121f564f24685c6b1211b'
+  - '0x3ed525fa1f10889dbf55515d1a436d91680d6c54'
+  - '0x4f7c68ede61727180cb983de2dea067bb35cb68e'
+  - '0x8d91c89dab8cb7e2b37d0fbfc3260ef88c0a37ad'
+  - '0xf394ba49fdf6270c3effd966d2b09f6a2e034a83'
+  - '0x00fba2f74e1f2b164ce1bc41ed989ed09865628b'
+  - '0x5a673da719172eede776b3aa4871e4197db7748c'
+  - '0xdb8e337655188b71e126ebccc37759c87db38f76'
+  - '0xc750d0c91dd5f2d3964931ff5dc42b2bb3e008c1'
+  - '0xc92e74b131d7b1d46e60e07f3fae5d8877dd03f0'
+  - '0x426ca1ea2406c07d75db9585f22781c096e3d0e0'
+  - '0xa0bed124a09ac2bd941b10349d8d224fe3c955eb'
+  - '0x6e0dade58d2d89ebbe7afc384e3e4f15b70b14d8'
+  - '0xf9fbe825bfb2bf3e387af0dc18cac8d87f29dea8'
+  - '0xf5f0a75ff462bb6f6b99350db7a6b1738a270772'
+  - '0xc834fa996fa3bec7aad3693af486ae53d8aa8b50'
+  - '0x34278f6f40079eae344cbac61a764bcf85afc949'
+  - '0x3b484b82567a09e2588a13d54d032153f0c0aee0'
+  - '0xef13cec8ffaf97bc9351b8d422f5bda14c058c14'
+  - '0xa6d1537b3699905ac18a10718b282661425fd662'
+  - '0x622651529bda465277cb890ef9176c442f42b338'
+  - '0x4e0b2a80e158f8d28a2007866ab80b7f63be6076'
+  - '0xa68dd8cb83097765263adad881af6eed479c4a33'
+  - '0xa6dd98031551c23bb4a2fbe2c4d524e8f737c6f7'
+  - '0xedc8e4e0ef8c319fe0790aab57718cf1a7a73aee'
+  - '0xc8490e02836adf06360faddb9977d2542d1412e9'
+  - '0x03236edf4541e73a1ec8228697948e8895940067'
+  # Add more token contract addresses to exclude as needed
+
+# Set delay in seconds to avoid exceeding rate limits
+RATE_LIMIT_DELAY: 0.2
